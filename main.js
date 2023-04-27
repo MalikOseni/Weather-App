@@ -106,5 +106,6 @@ btnEl.addEventListener('click', updateData);
 
 // Listen for click of "Back" arrow icon and remove active class from container element
 arrowEl.addEventListener('click', () => {
+  inputFieldEl.value = '';
   containerEl.classList.remove('active')
 })
